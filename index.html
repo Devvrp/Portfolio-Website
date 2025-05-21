@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Devin Raditya Pratama</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-mode">
+
+    <header id="main-header">
+        <div class="container">
+            <a href="#hero" id="logo">Devin</a>
+            <nav>
+                <ul id="nav-links">
+                    <li><a href="#hero" class="nav-link active">Beranda</a></li>
+                    <li><a href="#about" class="nav-link">Tentang</a></li>
+                    <li><a href="#skills" class="nav-link">Keahlian</a></li>
+                    <li><a href="#experience" class="nav-link">Pengalaman</a></li>
+                    <li><a href="#education" class="nav-link">Pendidikan</a></li>
+                    <li><a href="#projects" class="nav-link">Proyek</a></li>
+                    <li><a href="#contact" class="nav-link">Kontak</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button id="theme-toggle" aria-label="Toggle Light/Dark Mode">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <button class="menu-toggle" id="mobile-menu" aria-label="Buka menu navigasi">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container hero-container">
+                <div class="hero-text scroll-animate">
+                    <h1 class="hero-title">Halo, Saya <span class="name-highlight">Devin Raditya Pratama</span></h1>
+                    <p class="hero-subtitle" id="hero-tagline">Seorang <span class="dynamic-role">Mahasiswa Sistem Informasi</span> dari Balikpapan.</p>
+                    <p class="hero-description">Dengan minat pada desain, editing, fotografi, software & hardware, serta pengetahuan dasar komputer dan jaringan.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">Lihat Proyek Saya</a>
+                        <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+                    </div>
+                </div>
+                <div class="hero-visual scroll-animate">
+                    <img src="assets/images/profile-pic.png" alt="Foto Devin Raditya Pratama" class="hero-profile-image"> 
+                </div>
+            </div>
+            <div class="section-divider hero-divider">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100" preserveAspectRatio="none"><path d="M0,50 Q360,0 720,50 T1440,50 V100 H0 Z" fill="var(--color-card-bg)"></path></svg>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="section-header scroll-animate">
+                    <span class="section-tag">Profil Saya</span>
+                    <h2 class="section-title">Mengenal Saya Lebih Dekat</h2>
+                </div>
+                <div class="about-content-text-only"> <div class="about-text-wrapper"> <h3 class="scroll-animate">Devin Raditya Pratama</h3>
+                        <p class="scroll-animate">
+                            Saya adalah mahasiswa program studi Sistem Informasi yang memiliki minat dalam bidang design, editing, serta fotografi. Saya memiliki pengetahuan tentang dasar komputer, software, hardware, jaringan kabel serta nirkabel.
+                        </p>
+                        <p class="scroll-animate">
+                            Saya selalu antusias untuk belajar hal baru dan menerapkan kreativitas serta kemampuan analitis saya untuk memecahkan masalah dan menghasilkan solusi yang efektif.
+                        </p>
+                        <a href="assets/Curriculum Vitae.pdf" class="btn btn-outline scroll-animate" download target="_blank">Unduh CV Saya <i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="section-divider about-divider">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100" preserveAspectRatio="none"><path d="M0,50 Q360,100 720,50 T1440,50 V0 H0 Z" fill="var(--color-background)"></path></svg>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <div class="section-header scroll-animate">
+                    <span class="section-tag">Kemampuan</span>
+                    <h2 class="section-title">Keahlian yang Saya Kuasai</h2>
+                </div>
+                <div class="skills-category scroll-animate">
+                    <h4>Teknis & Profesional</h4>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <i class="fas fa-camera-retro skill-icon"></i>
+                            <h3>Editing Foto & Video</h3>
+                            <p>Kemampuan dalam penyuntingan foto dan video untuk berbagai kebutuhan visual.</p>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-tools skill-icon"></i>
+                            <h3>Troubleshooting Perangkat</h3>
+                            <p>Mengidentifikasi dan menyelesaikan masalah pada perangkat keras dan lunak.</p>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-drafting-compass skill-icon"></i>
+                            <h3>Web Design</h3>
+                            <p>Merancang tampilan visual website yang menarik dan fungsional.</p>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-network-wired skill-icon"></i>
+                            <h3>Merancang Sistem Jaringan</h3>
+                            <p>Memahami konsep dan praktik perancangan sistem jaringan komputer.</p>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-lightbulb skill-icon"></i>
+                            <h3>Problem-Solving</h3>
+                            <p>Kemampuan analitis untuk mengidentifikasi dan menyelesaikan masalah secara efektif.</p>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-users skill-icon"></i>
+                            <h3>Kepemimpinan</h3>
+                            <p>Memiliki potensi dan kemampuan dalam memimpin dan bekerja dalam tim.</p>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-code skill-icon"></i>
+                            <h3>Web Development</h3>
+                            <p>Pengembangan aplikasi web dasar, familiar dengan HTML, CSS, dan JavaScript.</p>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-cogs skill-icon"></i>
+                            <h3>Software & Hardware</h3>
+                            <p>Pengetahuan dasar instalasi, konfigurasi, dan pemeliharaan perangkat lunak dan keras.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category scroll-animate">
+                    <h4>Bahasa</h4>
+                    <div class="skills-grid language-skills-grid">
+                        <div class="skill-card">
+                            <i class="fas fa-language skill-icon"></i>
+                            <h3>Bahasa Indonesia</h3>
+                            <p>Bahasa Ibu (Native).</p>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-language skill-icon"></i>
+                            <h3>Bahasa Inggris</h3>
+                            <p>Tingkat Menengah.</p>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-language skill-icon"></i>
+                            <h3>Bahasa Jepang</h3>
+                            <p>Tingkat Menengah.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="experience">
+            <div class="section-divider experience-divider-top">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100" preserveAspectRatio="none"><path d="M0,50 Q360,0 720,50 T1440,50 V100 H0 Z" fill="var(--color-background)"></path></svg>
+        </div>
+            <div class="container">
+                <div class="section-header scroll-animate">
+                    <span class="section-tag">Perjalanan Karir</span>
+                    <h2 class="section-title">Pengalaman Kerja</h2>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item scroll-animate">
+                        <div class="timeline-icon"><i class="fas fa-briefcase"></i></div>
+                        <div class="timeline-content">
+                            <h3>PT Telekomunikasi Indonesia (Telkom Akses)</h3>
+                            <p class="timeline-date">Oktober 2023 - Desember 2023</p>
+                            <p><strong>Network and Field Operations Intern</strong><br>
+                                <ul>
+                                    <li>Menginstal perangkat jaringan seperti Optical Termination Point (OTP) dan kabel serat optik fabrikasi untuk konektivitas yang efisien.</li>
+                                    <li>Membantu menyelesaikan masalah pelanggan, termasuk memecahkan masalah Wi-Fi yang lambat dan masalah terkait jaringan lainnya.</li>
+                                    <li>Melakukan pemeriksaan rutin terhadap perangkat jaringan dan menyimpan catatan akurat tentang temuan dan kinerja sistem.</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item scroll-animate">
+                        <div class="timeline-icon"><i class="fas fa-briefcase"></i></div>
+                        <div class="timeline-content">
+                            <h3>PT Petrosea Tbk</h3>
+                            <p class="timeline-date">Juli 2023 - September 2023</p>
+                            <p><strong>Information and Communications Technology Intern</strong><br>
+                                <ul>
+                                    <li>Melakukan pemecahan masalah dan pemeliharaan perangkat jaringan, termasuk pemasangan dan perbaikan modem.</li>
+                                    <li>Menginstal dan mengonfigurasi aplikasi perangkat lunak untuk mengoptimalkan alur kerja karyawan dan mendukung operasi harian.</li>
+                                    <li>Membantu staf senior sebagai pembantu teknis, memberikan dukungan langsung dalam berbagai tugas terkait TI.</li>
+                                    <li>Menunjukkan kemampuan beradaptasi dan pemecahan masalah yang efektif dalam lingkungan profesional yang bergerak cepat.</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-divider experience-divider-bottom">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100" preserveAspectRatio="none"><path d="M0,50 Q360,100 720,50 T1440,50 V0 H0 Z" fill="var(--color-card-bg)"></path></svg>
+            </div>
+        </section>
+
+        <section id="education">
+            <div class="container">
+                <div class="section-header scroll-animate">
+                    <span class="section-tag">Riwayat Akademis</span>
+                    <h2 class="section-title">Jejak Pendidikan Saya</h2>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item scroll-animate">
+                        <div class="timeline-icon"><i class="fas fa-university"></i></div>
+                        <div class="timeline-content">
+                            <h3>Institut Teknologi Kalimantan</h3>
+                            <p class="timeline-date">2024 - Sekarang</p>
+                            <p>Program Studi Sistem Informasi</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item scroll-animate"> 
+                        <div class="timeline-icon"><i class="fas fa-user-graduate"></i></div>
+                        <div class="timeline-content">
+                            <h3>SMK Negeri 6 Balikpapan</h3>
+                            <p class="timeline-date">2021 - 2024</p> <p>Jurusan Teknik Komputer dan Jaringan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-divider education-divider-bottom">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100" preserveAspectRatio="none"><path d="M0,50 Q360,100 720,50 T1440,50 V0 H0 Z" fill="var(--color-background)"></path></svg>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="section-divider projects-divider-top">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100" preserveAspectRatio="none"><path d="M0,50 Q360,0 720,50 T1440,50 V100 H0 Z" fill="var(--color-card-bg)"></path></svg>
+            </div>
+            <div class="container">
+                <div class="section-header scroll-animate">
+                    <span class="section-tag">Portofolio</span>
+                    <h2 class="section-title">Beberapa Karya Saya</h2>
+                </div>
+
+                <div class="swiper project-swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide project-card-slide">
+                            <div class="project-image-wrapper">
+                                <img src="assets/images/cah wedok arep kemping karo konco koncone.jpg" alt="GFX">
+                                <div class="project-short-description">
+                                    <h4>Deskripsi Singkat:</h4>
+                                    <p>Desain poster karakter Nadeshiko Kagamihara dari anime Yuru Camp</p>
+                                </div>
+                                <div class="project-overlay">
+                                    <a href="#" class="overlay-link" target="_blank" aria-label="Lihat Detail Proyek Nadeshiko (misal Behance/Instagram)"><i class="fas fa-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="project-slide-info">
+                                <h3 class="project-slide-title">Poster Karakter Nadeshiko</h3>
+                                <span class="project-slide-category">Desain Grafis, GFX</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide project-card-slide">
+                            <div class="project-image-wrapper">
+                                <img src="assets/images/mahadaya gita.jpg" alt="Typhography">
+                                <div class="project-short-description">
+                                    <h4>Deskripsi Singkat:</h4>
+                                    <p>Konsep grafis typography Gita JKT48 dengan gaya modern dan energik.</p>
+                                </div>
+                                <div class="project-overlay">
+                                    <a href="#" class="overlay-link" target="_blank" aria-label="Lihat Detail Proyek Gita (misal Behance/Instagram)"><i class="fas fa-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="project-slide-info">
+                                <h3 class="project-slide-title">Grafis Fan Gita JKT48</h3>
+                                <span class="project-slide-category">Desain Grafis, branding, Fan Art</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide project-card-slide">
+                            <div class="project-image-wrapper">
+                                <img src="assets/images/The first Rule.jpg" alt="Poster Film">
+                                <div class="project-short-description">
+                                    <h4>Deskripsi Singkat:</h4>
+                                    <p>Interpretasi desain poster minimalis untuk film klasik 'Fight Club', fokus pada elemen kunci dan nuansa film.</p>
+                                </div>
+                                <div class="project-overlay">
+                                    <a href="#" class="overlay-link" target="_blank" aria-label="Lihat Detail Proyek Fight Club (misal Behance/Instagram)"><i class="fas fa-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="project-slide-info">
+                                <h3 class="project-slide-title">Poster Minimalis Fight Club</h3>
+                                <span class="project-slide-category">Desain Poster, Film</span>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-slide project-card-slide">
+                            <div class="project-image-wrapper">
+                                <img src="assets/images/Taskify.jpg" alt="Taskify">
+                                <div class="project-short-description">
+                                    <h4>Deskripsi Singkat:</h4>
+                                    <p>aplikasi web untuk pengingat/reminder tugas. Menggunakan Javascript sederhana</p>
+                                </div>
+                                <div class="project-overlay">
+                                    <a href="https://devvrp.github.io/Taskify/" class="overlay-link" target="_blank" aria-label="Live Demo Proyek Web"><i class="fas fa-eye"></i></a>
+                                    <a href="https://github.com/Devvrp/Taskify" class="overlay-link" target="_blank" aria-label="Kode Sumber Proyek Web di GitHub"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                            <div class="project-slide-info">
+                                <h3 class="project-slide-title">Taskify - Aplikasi Pengingat Tugas</h3>
+                                <span class="project-slide-category">Web Development, JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="section-header scroll-animate">
+                    <span class="section-tag">Terhubung Dengan Saya</span>
+                    <h2 class="section-title">Mari Berdiskusi atau Berkolaborasi</h2>
+                </div>
+                <p class="contact-page-intro scroll-animate">Saya selalu antusias untuk mendengar ide-ide baru, menjawab pertanyaan, atau menjajaki peluang kolaborasi. Jangan ragu untuk menghubungi saya melalui salah satu cara di bawah ini.</p>
+                <div class="contact-methods-container scroll-animate">
+                    <div class="contact-method-item">
+                        <i class="fas fa-envelope contact-icon"></i>
+                        <h3>Email</h3>
+                        <p>Cara terbaik untuk pertanyaan detail atau proposal proyek.</p>
+                        <a href="mailto:devinradityapratama@gmail.com" class="btn btn-outline">Kirim Email</a>
+                    </div>
+                    <div class="contact-method-item">
+                        <i class="fab fa-whatsapp contact-icon"></i>
+                        <h3>WhatsApp</h3>
+                        <p>Untuk diskusi cepat atau pertanyaan singkat.</p>
+                        <a href="https://wa.me/6283140523815" target="_blank" class="btn btn-outline">Chat di WhatsApp</a>
+                    </div>
+                    <div class="contact-method-item">
+                        <i class="fab fa-linkedin contact-icon"></i>
+                        <h3>LinkedIn</h3>
+                        <p>Lihat profil profesional saya dan mari terhubung.</p>
+                        <a href="https://www.linkedin.com/in/devin-raditya-pratama" target="_blank" class="btn btn-outline">Profil LinkedIn</a>
+                    </div>
+                </div>
+                <div class="contact-socials-alt scroll-animate">
+                    <p>Anda juga bisa menemukan saya di:</p>
+                    <a href="https://github.com/Devvrp" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/dev1nese/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="main-footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Devin Raditya Pratama.</p>
+            <p>Contact: 
+                <a href="mailto:devinradityapratama@gmail.com" class="footer-link">devinradityapratama@gmail.com</a> | 
+                <a href="https://www.linkedin.com/in/devin-raditya-pratama" target="_blank" class="footer-link">LinkedIn</a>
+            </p>
+        </div>
+    </footer>
+
+    <button id="back-to-top" title="Kembali ke atas" aria-label="Kembali ke atas">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
